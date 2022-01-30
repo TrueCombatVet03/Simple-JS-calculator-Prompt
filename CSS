@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+@media (max-width: 500px) {
+}
+header {
+    padding-top: 5rem;
+}
+.head {
+    color: rgb(11, 252, 43);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: flex;
+    transform: rotate(-70deg);
+    font-size: 16px;
+    float: right;
+    margin-top: 5rem;
+    padding-right: 8rem;
+}
+/* Paragraph insructions and li*/
+.instruct {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 5rem;
+    background-image: linear-gradient(
+        to left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        red
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.todo {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+/*start button*/
+button {
+    background: rgb(9, 217, 245);
+    font-size: 2rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: rgb(252, 252, 5);
+}
+
+h2 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 3rem;
+    background-image: linear-gradient(
+        to left,
+        violet,
+        indigo,
+        blue,
+        green,
+        yellow,
+        orange,
+        red
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 1rem;
+}
+
+.rights {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    position: absolute;
+    margin-top: 10rem;
+}
